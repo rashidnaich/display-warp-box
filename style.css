@@ -1,0 +1,84 @@
+
+.box{    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.karachi{
+    background-color:transparent;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
+.picture{
+    border-radius: 10px;
+    width: fit-content;
+    margin-top: 10px;
+    padding : 15px;
+    font-size: 15px;
+    background-color:white;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    bottom: 60px;
+    left: 20px;
+}
+
+.box1 {
+    border: 1px solid black;
+    border-radius: 20px;
+    object-fit: cover;
+    width: 400px;
+    height: 300px;
+    transition: 0.3s;
+}
+
+.box1:hover {
+    transform: scale(1.01);
+    transition: 0.3s;
+}
+
+.anker{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px;
+
+
+}
+.anker a{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+#sal{
+    font-size: 20px;
+    height: 40px;
+}
+.hydro{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.hydro a{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+.hydro ul{
+    list-style: none;
+}
+
+.social i{
+    font-size: 20px;
+    padding: 5px;
+    
+}
